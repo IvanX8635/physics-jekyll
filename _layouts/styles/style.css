@@ -1,0 +1,6 @@
+.navbar-title-hover{
+	transition: background-color 400ms linear;
+}
+.navbar-title-hover:hover{
+	background-color:lightblue;
+}
