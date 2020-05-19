@@ -4,3 +4,9 @@
 .navbar-title-hover:hover{
 	background-color:lightblue;
 }
+.reactivenav-text{
+	font-size: 1.5vw;
+}
+reactive-nav-margin{
+	margin-left:1.2vw;
+}
