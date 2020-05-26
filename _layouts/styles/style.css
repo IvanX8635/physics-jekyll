@@ -1,12 +1,26 @@
-.navbar-title-hover{
-	transition: background-color 400ms linear;
+/*navbar*/
+.navbar-inner {
+    background:transparent;
+    transition: background 600ms ease;
 }
-.navbar-title-hover:hover{
-	background-color:lightblue;
+  .navbar-inner:hover {
+    background:gray;
 }
 .reactivenav-text{
-	font-size: 1.5vw;
+	transition: background-color 500ms ease;
 }
-reactive-nav-margin{
-	margin-left:1.2vw;
+.reactivenav-text:hover{
+	background-color:lightblue;
+}
+.navbar-fixed-top.scrolled {
+  background-color: gray !important;
+  transition: background-color 300ms linear;
+}
+/*header/context*/
+.reactive-header-text{
+	font-size:4vw;
+}
+
+.reactive-content-text1{
+	font-size:3vw;
 }
