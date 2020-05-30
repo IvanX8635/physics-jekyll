@@ -1,6 +1,6 @@
 ---
-layout: "page"
-title: classical Physics
+Title: Kinematics
+layout: posts
 ---
 
-content
+stuff stuff
