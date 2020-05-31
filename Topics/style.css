@@ -9,6 +9,10 @@
   width: 50%;
   display: block;
 }
+.small-img{
+  width:10%!important;
+  height:auto!important;
+}
 .content-text{
 	font-size:2vw;
 }
@@ -49,4 +53,17 @@ img {
   animation-name: gravityBox;
   animation-duration: 3s;
   animation-timing-function: ease;
+}
+
+@keyframes movingImage{
+  0% {right:300px;}
+  25%{right:600px;}
+  50%{right:900px;}
+  75%{right:1200px}
+  
+}
+.movingImage{
+  animation-name: movingImage;
+  animation-duration: 3s;
+  
 }
