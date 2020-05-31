@@ -1,0 +1,76 @@
+/*Universal*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+/*navbar*/
+.navbar-inner {
+    background:transparent;
+    transition: background 600ms ease;
+}
+  .navbar-inner:hover {
+    background:gray;
+}
+.reactivenav-text{
+	transition: background-color 500ms ease;
+}
+.reactivenav-text:hover{
+	background-color:lightblue;
+}
+.navbar-fixed-top.scrolled {
+  background-color: gray !important;
+  transition: background-color 300ms linear;
+}
+/*overview text*/
+.overview-text{
+  font-weight: normal;
+  color:gray;
+  transition: font-weight 500ms ease;
+}
+.overview-text:hover{
+  color: black;
+  font-weight: bold;
+}
+/*header/context*/
+.reactive-header-text{
+	font-size: 4vw;
+	padding: 2vw;
+}
+
+.reactive-content-text1{
+	font-size:2.25vw;
+}
+/*Topic reactive*/
+.reactive-topic-link{
+  background: transparent;
+  transition: background 500ms linear;
+}
+.reactive-topic-link:hover{
+  background:darkblue!important;
+}
+/*content for interesting physics*/
+.background-for-adv{
+  background-color: lightblue;
+}
+.content-background{
+ 
+  transition: background-color 650ms ease;
+}
+.content-background:hover{
+  background-color:yellow;
+}
+
+/*About modifications*/
+.about-reactive{
+  font-size: 2vw;
+  transition: font-size 650ms ease;
+}
+.about-reactive:hover{
+  font-size: 3vw;
+}
+
