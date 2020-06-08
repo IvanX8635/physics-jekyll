@@ -62,7 +62,7 @@
   transition: background-color 650ms ease;
 }
 .content-background:hover{
-  background-color:yellow;
+  background-color:#1BA8AB;
 }
 
 /*About modifications*/
