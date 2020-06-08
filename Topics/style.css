@@ -1,3 +1,16 @@
+/*reactive-heading*/
+.heading-reactive{
+  animation: transform 3s 1;
+}
+@keyframes transform{
+    0%{
+        transform: scale(.25);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .heading-text{
 	font-size: 3rem;
 }
@@ -36,6 +49,18 @@ img {
 .text-reactive1:hover{
   color:white;
   background:black;
+}
+.text-reactive2{
+  color:blue;
+  background:white;
+  transition: color 500ms ease;
+  transition: background 500ms linear;
+}
+
+.text-reactive2:hover{
+  color:Red;
+  background:black;
+  
 }
 
 /*Animations*/
