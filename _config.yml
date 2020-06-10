@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
 port: 8080
 
-#Defaults
+#Defaults Blogs only
 defaults:
   -
     scope:
